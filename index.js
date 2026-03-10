@@ -1,9 +1,10 @@
 const express = require('express')
 const ConnectDB = require('./Config/ConnectDB')
+
+const cors = require('cors')
 const userRouter = require('./Routes/User')
 const productRouter = require('./Routes/Product')
 const commendRouter = require('./Routes/Commend')
-const cors = require('cors')
 
 
 
