@@ -11,7 +11,7 @@ const commendRouter = require('./Routes/Commandes')
 
 const app =  express()
 app.use(cors({
-    origin : 'http://localhost:3000',
+    origin : 'https://superb-cactus-183f75.netlify.app',
     credentials : true
 }))
 
